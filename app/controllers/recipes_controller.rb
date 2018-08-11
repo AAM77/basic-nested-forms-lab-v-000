@@ -25,6 +25,8 @@ private
       :title
       :ingredients_attributes [
         :name,
-        :quantity])
+        :quantity
+        ]
+      )
   end
 end
