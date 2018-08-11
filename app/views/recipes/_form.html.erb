@@ -5,6 +5,9 @@
   <%= f.fields_for :recipes do |recipe| %>
     <%= f.label :name %>
     <%= f.text_field :name %><br>
+    
+    <%= f.label :quantity %>
+    <%= f.text_field :quantity %><br>
   <% end %>
   
   <%= f.submit %>
