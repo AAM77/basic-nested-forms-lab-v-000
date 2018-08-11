@@ -3,7 +3,8 @@
   <br>
   
   <%= f.fields_for :recipes do |recipe| %>
-    
+    <%= f.label :name %>
+    <%= f.text_field :name %><br>
   <% end %>
   
   <%= f.submit %>
